@@ -1,0 +1,68 @@
+{
+    "title": "WEBCTF题目汇总",
+    "author": "Y1ng",
+    "description": "记录参加过的比赛中的WEB题目",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "Team r3kapig" : "https://r3kapig.com/"
+        }
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "search-pro",
+        "-sharing",
+        "splitter",
+        "expandable-chapters-small",
+        "toggle-chapters",
+        "anchors",
+        "github",
+        "popup",
+        "github-buttons",
+        "anchor-navigation-ex",
+        "favicon",
+        "back-to-top-button",
+        "pageview-count",
+        "code",
+        "advanced-emoji",
+        "emphasize",
+        "alerts",
+        "auto-scroll-table",
+        "hide-element",
+        "chapter-fold",
+        "expandable-chapters",
+        "theme-default"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/y1nglamore/gitbook_webctf_summary"
+        },
+        "github-buttons": {
+            "buttons": [{
+                "user": "y1nglamore",
+                "repo": "gitbook_webctf_summary",
+                "type": "star",
+                "size": "small",
+                "count": true
+            }]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "showGoTop": true
+        },
+        "code": {
+            "copyButtons": true
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "theme-default": {
+            "showLevel": true
+        }
+    }
+}
